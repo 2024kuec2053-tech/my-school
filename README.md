@@ -16,6 +16,5 @@ Simply Enter Phone Number you will receive a opt in screen
 
 ## 🚀 Deployment Link (Mandatory)
 Live Project Link:  
-https://your-deployed-project-link.com
-
+https://my-school-ashen.vercel.app/
 ---
