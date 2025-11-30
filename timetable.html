@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Timetable - Dalimss Sunbeam School</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Poppins';
+        background: linear-gradient(135deg, #ff512f, #dd2476);
+        color: white;
+        min-height: 100vh;
+    }
+
+    .navbar {
+        background: rgba(255,255,255,0.15);
+        padding: 15px 25px;
+        display: flex;
+        justify-content: space-between;
+        backdrop-filter: blur(8px);
+    }
+
+    .navbar a { color: white; margin-left: 20px; text-decoration:none; }
+
+    h1 { text-align: center; margin-top: 40px; }
+
+    table {
+        width: 80%;
+        margin: 30px auto;
+        border-collapse: collapse;
+        background: rgba(255,255,255,0.2);
+        backdrop-filter: blur(10px);
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+    th, td {
+        padding: 15px;
+        border-bottom: 1px solid rgba(255,255,255,0.3);
+        text-align: center;
+        font-size: 16px;
+    }
+
+    th {
+        background: rgba(0,0,0,0.3);
+    }
+</style>
+</head>
+
+<body>
+
+<div class="navbar">
+    <h2>Dalimss Sunbeam School</h2>
+    <div>
+        <a href="dashboard.html">Home</a>
+        <a href="login.html">Logout</a>
+    </div>
+</div>
+
+<h1>📅 Weekly Timetable</h1>
+
+<table>
+    <tr>
+        <th>Time</th>
+        <th>Subject</th>
+    </tr>
+    <tr><td>08:00 - 09:00</td><td>Maths</td></tr>
+    <tr><td>09:00 - 10:00</td><td>Science</td></tr>
+    <tr><td>10:00 - 11:00</td><td>English</td></tr>
+    <tr><td>11:20 - 12:20</td><td>Social Studies</td></tr>
+    <tr><td>12:20 - 01:00</td><td>Computer</td></tr>
+</table>
+
+</body>
+</html>

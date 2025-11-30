@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dalimss Sunbeam School - Dashboard</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(135deg, #2575fc, #6a11cb);
+        color: #fff;
+    }
+
+    /* NAVBAR */
+    .navbar {
+        background: rgba(255,255,255,0.15);
+        backdrop-filter: blur(8px);
+        padding: 15px 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    }
+
+    .navbar h2 {
+        font-size: 24px;
+        margin: 0;
+        font-weight: 600;
+    }
+
+    .nav-links a {
+        margin-left: 20px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 400;
+        transition: 0.3s;
+    }
+
+    .nav-links a:hover {
+        color: #ffe57f;
+    }
+
+    /* HERO SECTION */
+    .hero {
+        text-align: center;
+        padding: 80px 20px;
+        animation: fadeIn 1s ease-in-out;
+    }
+
+    .hero h1 {
+        font-size: 42px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    .hero p {
+        font-size: 18px;
+        opacity: 0.9;
+    }
+
+    /* CARDS */
+    .cards {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 50px auto;
+        max-width: 1000px;
+    }
+
+    .card {
+        background: rgba(255,255,255,0.15);
+        backdrop-filter: blur(8px);
+        padding: 30px;
+        margin: 15px;
+        width: 260px;
+        border-radius: 18px;
+        text-align: center;
+        box-shadow: 0 6px 25px rgba(0,0,0,0.25);
+        transition: 0.3s;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+    .card h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        color: #ffe57f;
+    }
+
+    .card p {
+        font-size: 15px;
+        color: #f8f8f8;
+    }
+
+    /* FOOTER */
+    footer {
+        text-align: center;
+        padding: 25px;
+        background: rgba(255,255,255,0.15);
+        backdrop-filter: blur(8px);
+        margin-top: 40px;
+        font-size: 15px;
+    }
+
+    @keyframes fadeIn {
+        from {opacity: 0; transform: translateY(20px);}
+        to {opacity: 1; transform: translateY(0);}
+    }
+</style>
+
+</head>
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+    <h2>Dalimss Sunbeam School</h2>
+    <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">Notice</a>
+        <a href="#">Results</a>
+        <a href="#">Logout</a>
+    </div>
+</div>
+
+<!-- HERO SECTION -->
+<div class="hero">
+    <h1>Welcome to Dalimss Sunbeam School</h1>
+    <p>Your academic dashboard, announcements & school updates in one place.</p>
+</div>
+
+<!-- CARDS SECTION -->
+<div class="cards">
+
+  <div class="card" onclick="window.location.href='study.html'">
+    <h3>📚 Study Material</h3>
+    <p>Download notes, assignments and chapter PDFs.</p>
+</div>
+
+
+<div class="card">
+    <h3>📝 Homework</h3>
+    <p>Check daily homework uploaded by teachers.</p>
+    <a href="homework.html" style="color: yellow; font-weight: bold; text-decoration: none;">Open</a>
+</div>
+
+  
+    <div class="card">
+    <h3>📅 Timetable</h3>
+    <p>Your class routine</p>
+    <a href="timetable.html" style="color:white; font-weight:bold;">Open</a>
+</div>
+
+
+    <div class="card">
+    <h3>📢 Notices</h3>
+    <p>Latest school announcements</p>
+    <a href="notice.html" style="color:white; font-weight:bold;">Open</a>
+</div>
+
+    <div class="card">
+        <h3>🎓 Results</h3>
+        <p>Check your exam performance online.</p>
+        <a href="result.html" style="color:white; font-weight:bold;">open</a>
+    </div>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+    © 2025 Dalimss Sunbeam School | Designed by Ashish
+</footer>
+
+</body>
+</html>
